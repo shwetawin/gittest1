@@ -4,7 +4,16 @@ db = client.test
 d = {
     "name":"Shweta",
     "email" : "shweta.kanhere@gmail.com",
-    "surname" : "kanhere"
+    "surname" : "kanhere",
+    "id" : "902t"
+
+}
+
+d1 = {
+    "name":"bob",
+    "email" : "bob.kanhere@gmail.com",
+    "surname" : "kan",
+    "id" : "912t"
 }
 db1 = client['mongodbclass']
 coll = db1['test']
